@@ -57,3 +57,18 @@ header div{
 #logo{
   flex-direction: column;
 }
+
+#recipe-steps{
+  position: absolute;
+  z-index: 0;
+}
+
+div ul{
+z-index: 1;
+}
+
+#recipe-steps{
+position: absolute;
+flex-wrap: wrap;
+}
+
