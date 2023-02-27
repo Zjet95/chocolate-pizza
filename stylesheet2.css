@@ -1,74 +1,82 @@
-*{
-  box-sizing: border-box;
+.borderImg{
+  background: url(/img/hr-img.png) repeat;
+  height: 10px;
+  border: none;
 }
-body{
-  background-color: black;
-  width: 100%;
+
+body {
+  margin: 30px;
+  max-width: 900px;
   
-  border: 2px solid black;
-  margin: auto;
-  
 }
-main{
-  margin: auto;
-  background-color: white;
-}
-
-  #chocolate-pizza{
-  width: 100%;
-  margin: auto;
-}
-
-#secondbody{
-  width: 60%;
-  margin: auto;
-  background-color: white;
-}
-
-#thirdbody{
-  width: 80%;
-  margin: auto;
-}
-header{
+header {
   display: flex;
   justify-content: space-between;
-  padding-top: 25px;
-  align-content: center;
 }
-#iconBar{
+
+header section {
   display: flex;
-  width: 250px;
+}
+#socialMediaIcons ul {
+  display: flex;
   flex-direction: row;
+  justify-content: right;
+  
 }
-#iconBar img{
-  align-self:center ;
+#socialMediaIcons li {
+  margin-right: 2px;
 }
-#iconBar div ul{
+
+main section {
   display: flex;
-  align-content: center;
-  flex-direction: row;
-  padding: 5px;
+  justify-content: space-between;
 }
 
-header div{
+#printerFunction {
   display: flex;
-
-}
-#logo{
-  flex-direction: column;
+  height: fit-content;
 }
 
-#recipe-steps{
+#pizza {
+  display: flexbox;
+}
+
+main p {
+  margin: 5px 0;
+}
+
+#recipe {
+  display: flex;
+}
+
+#recipe ul {
   position: absolute;
-  z-index: 0;
+  columns: auto;
+  columns: 2;
+  margin: 30px;
 }
 
-div ul{
-z-index: 1;
+#recipe li {
+  margin: 15px 15px 15px 45px;
+  font-size: 20px;
+  list-style-type: square;
 }
 
-#recipe-steps{
-position: absolute;
-flex-wrap: wrap;
+#share {
+  margin: 20px 0;
 }
 
+button {
+  border-radius: 5px;
+  background-color: orangered;
+  color: white;
+}
+
+footer {
+  margin: 50px 0 100px;
+  text-align: center;
+}
+
+footer img {
+  margin-bottom: 20px;
+}
